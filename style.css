@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    
+
+}
+.photo{
+    width: 100px;
+    height: 20px;
+}
+.space{
+    padding: 7px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.space:hover{
+    background-color: rgb(59, 223, 168);
+    color: black;
+}
+.menus{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
