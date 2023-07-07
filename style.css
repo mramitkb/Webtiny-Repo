@@ -20,8 +20,8 @@
 .space{
     padding: 7px;
     margin: 10px;
-    border: 1px solid grey;
-    border-radius: 20px;
+    border-bottom: 1px solid grey;
+    border-radius: 10px;
     cursor: pointer;
 }
 .space:hover{
