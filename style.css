@@ -32,5 +32,36 @@
     display: flex;
     font-size: 14px;
     font-weight: bold;
-    
+}
+.body-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./images/background.png"), linear-gradient(45deg,#000, #272525);
+    color: white;
+}
+.pho{
+    height: 300px;
+}
+.bolt{
+    font-size: 60px;
+    margin: 10px;
+}
+.para{
+    font-size: 18px;
+    margin: 10px;
+}
+.but{
+    border-repeat: none;
+    padding: 15px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.grey{
+    border: none;
+    border-top: 1px solid grey;
 }
